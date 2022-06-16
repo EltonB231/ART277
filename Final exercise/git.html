@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Health Essential-Home</title>
+    <style>
+     body{
+        font-size: 17px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 400;
+        color: rgb(39, 39, 39);}
+        
+  
+      .menu-icon {
+        height: 30px;
+        width: 30px;
+        cursor: pointer;
+        float: right;
+        margin-top: 17px;
+        margin-right: -19px;
+        border-radius: 2px;
+        display: none;
+      }
+      .contianer {
+        background-color: green;
+        width: 100%;
+        height: 70px;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+        overflow: hidden;
+      }
+
+      .divs {
+        font-size: 14px;
+        background-color: #ff54a2;
+        width: 200px;
+        margin-left: -13px;
+      }
+      .img {
+        height: 200px;
+        width: 444px;
+      }
+      .form1 {
+        width: 400px;
+        height: 590px;
+      }
+      form {
+        font-size: 18px;
+        height: 540px;
+        width: 319px;
+        background-color: rgb(129, 145, 129);
+        margin-left: 70px;
+        margin-top: 12px;
+      }
+      .get {
+        font-size: 10px;
+        margin-top: 10px;
+        font: bold;
+      }
+      .get2 {
+        margin-top: -23px;
+        font-weight: bolder;
+        font-size: 20px;
+      }
+      p {
+        margin-left: 39px;
+        font-size: 20px;
+        margin-top: 25px;
+      }
+      img{
+          height: 200px;
+          width: 450px;
+          margin-top: -58px;
+      }
+      input {
+        width: 200px;
+        height: 25px;
+        margin-left: 39px;
+        border-radius: 09px;
+        border: none;
+        font-size: 14Spx;
+        text-align: left 12px;
+        margin-top: -023px;
+      }
+      button {
+        height: 25px;
+        width: 200px;
+        margin-left: 39px;
+        background-color: rgb(25, 86, 25);
+        margin-top: 13px;
+        border: none;
+        border-radius: 05px;
+        color: white;
+        font-size: 13px;
+      }
+      .navbar {
+        align-items: center;
+        width: 100%;
+        display: flex;
+        width: 500px;
+        margin-left: 700px;
+        font-weight: bold;
+        margin-top: -13px;
+      }
+
+      .footerp {
+        color: white;
+        margin-top: 25px;
+        width: 100%;
+    height: 50px;
+    padding: 10px;
+      }
+      .footer {
+        background-color: brown;
+        margin-top: 4px;
+        text-align: center;
+        height: 60px;
+        
+      }
+      .pi {
+        font-size: 29px;
+        margin-top: -55px;
+        color: white;
+        margin-left: 42px;
+      }
+      .p1 {
+        font-size: 29px;
+        margin-top: -63px;
+        color: yellow;
+        margin-left: 162px;
+      }
+      li {
+        display: block;
+      }
+      nav {
+        flex: 1;
+        text-align: right;
+      }
+      nav li{
+        display: inline-block;
+      }
+      nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 30px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bolder;
+        display: block;
+        margin-left: -20px;
+        overflow: hidden;
+      }
+      nav ul li a:hover {
+        color: rebeccapurple;
+      }
+      @media only screen and (max-width: 700px) {
+        nav ul {
+          height: 420px;
+          width: 88%;
+          margin-right: 07px;
+          background: linear-gradient(#00520f, #144d00);
+          position: absolute;
+          top: 55px;
+          right: 0;
+          z-index: 2;
+          display: block;
+          overflow: hidden;
+        }
+        nav ul li {
+          display: block;
+          margin-top: 07px;
+          margin-bottom: 05px;
+        }
+        nav ul li a {
+          color: #fff;
+          display: block  ;
+          overflow: hidden;
+        }
+        .menu-icon {
+          display: block;
+        }
+        li {
+          display: none;
+        }
+        #menulist{
+          overflow: hidden;
+          transition: 0.5s;
+        }
+      }
+      @media (min-width: 600px) {
+        body {
+          font-size: 30px;
+        }
+        
+      }
+      @media (min-width: 600px) {
+        form {
+          width: 600px;
+          margin-left: 400px;
+          height: 900px;
+        }
+        input {
+          width: 500px;
+          height: 39px;
+          margin-left: 43px;
+          border-radius: 09px;
+          border: none;
+          font-size: 18px;
+          text-align: left 12px;
+          margin-top: 35px;
+        }
+        p {
+          margin-left: 50px;
+          font-size: 26px;
+        }
+         .get {
+          font-size: 35px;
+          margin-top: 80px;
+
+
+        }
+        .get2 {
+          margin-top: 25px;
+          font-weight: bolder;
+          font-size: 25px;
+        }
+        button {
+           
+            height: 39px;
+            width: 500px;
+            margin-left: 45px;
+            background-color: brown;
+            margin-top: 70px;
+            border: none;
+            border-radius: 09px;
+            color: white;
+            font-size: 30px;
+          }
+          img{
+            margin-top: -19px;
+          height: 400px;
+          width: 1330px;
+          margin-top: 73px;
+          
+        }
+    }
+    
+    </style>
+</head>
+<body>
+
+    <div class="container">
+<header>
+    <h1>Health<span>Essential</span></h1>
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="tips.html">Tips</a></li>
+    <li><a href="git.html">Get In Touch</a></li>
+    <li><a href="mailtoeltonurey@gmail.com">Email Us</a></li>
+</ul>
+</header> <br> <br>
+
+<div class="form1">
+    <form action="submit">
+      <p class="get"> <b>Get in Touch!</b></p>
+      <p class="get2">Use the contact form below to get in touch.</p>
+
+      <p>Name:</p>
+      <input type="text" placeholder="Your Name" />
+      <p>Email Adress:</p>
+      <input type="text" placeholder="your@email.com" />
+      <p>Website:</p>
+
+      <input type="text" placeholder="" />
+      <p>Subject:</p>
+      <input type="text" placeholder="I just Want to say hello" />
+      <p>Message:</p>
+      <input type="text" />
+      <button type="submit">Send away!</button>
+    </form>
+  </div>
+    <br>
+    <br> <br>
+    <br> <br>
+    <br> <br>
+    <br> <br>
+<div>
+<br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d507412.8165340138!2d-10.66608456855469!3d6.501086200234691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1654649328062!5m2!1sen!2s" 
+width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br> <br>
+</div>
+<footer>
+    <p>Copyright @ 2022 Health Essentials. All Rights Reserved</p>
+</footer>            
+</html>
